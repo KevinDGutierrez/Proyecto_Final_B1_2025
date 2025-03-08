@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "883dbac0-0a6e-4ed9-8251-1aa5d8944912",
+		"name": "Bills",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42402387"
+	},
+	"item": [
+		{
+			"name": "addBill",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3MmQ2MGQwYTU1N2Q1NDY4YjlmOTQiLCJpYXQiOjE3NDE0NDYyNzgsImV4cCI6MTc0MTQ0OTg3OH0.MIkiSuLkpXzqcGt6w6mFYUH3TUryYx47_nImkN5I5lA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Pablo\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/bills/createBill",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"bills",
+						"createBill"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "viewMyBill",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3MmQyN2QwYTU1N2Q1NDY4YjlmOTEiLCJpYXQiOjE3NDE0MTMzODAsImV4cCI6MTc0MTQxNjk4MH0.Kn3Ir-5b_up9uHvhe6sSd66R4zvFV_nvT6miSqg554Q",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"dani\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/bills/viewMyBill",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"bills",
+						"viewMyBill"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBill",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDE0MTczNzUsImV4cCI6MTc0MTQyMDk3NX0.Mq4IoSu39E3f1z7XZwzIceFkWDgQujWHBxq_kiy_Mcw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/bills/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"bills",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchBill",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDE0MTczNzUsImV4cCI6MTc0MTQyMDk3NX0.Mq4IoSu39E3f1z7XZwzIceFkWDgQujWHBxq_kiy_Mcw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/bills/67cbdc10c0ee39fd7b78efe7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"bills",
+						"67cbdc10c0ee39fd7b78efe7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateBill",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDE0MTU4MzgsImV4cCI6MTc0MTQxOTQzOH0.iZmf_tKNRbjmQf7CAaZS-kA7-P0TB1rrVHwxdWnayBk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"products\": [\r\n    {\r\n      \"productName\": \"Fresas\", \r\n      \"amount\": 5\r\n    }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/bills/67cbdc10c0ee39fd7b78efe7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"bills",
+						"67cbdc10c0ee39fd7b78efe7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

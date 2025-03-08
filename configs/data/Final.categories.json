@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "67ca190024d367bfccdd48f9"
+  },
+  "name": "General",
+  "information": "Categoría general",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-06T21:52:00.499Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T23:03:30.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca26a1bf7f1398de3cc610"
+  },
+  "name": "verduras",
+  "information": "verduras frescas",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-06T22:50:09.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T22:52:30.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca274bbf7f1398de3cc61a"
+  },
+  "name": "frutas",
+  "information": "Frutas frescas",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-06T22:52:59.018Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T23:10:29.873Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca5b796a25c5067e40a08c"
+  },
+  "name": "bebidas",
+  "information": "Las mejores bebidas para refrescarte",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-07T02:35:37.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:35:37.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cb5bbea7e4fa8f400b1186"
+  },
+  "name": "carnes",
+  "information": "tipos de carnes ",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-07T20:49:02.910Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T20:49:02.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cb95d041cc1fc5ee067e1b"
+  },
+  "name": "utilidades",
+  "information": "tipos de Utilidades para el hogar",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T00:56:48.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T00:56:48.281Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5da74d8d92a64440f9f8"
+  },
+  "name": "risitos",
+  "information": "Las mejores botanas",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T15:09:27.380Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:09:27.380Z"
+  }
+}]

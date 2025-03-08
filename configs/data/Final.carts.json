@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "67cbd11945725a231ae82a99"
+  },
+  "user": {
+    "$oid": "67c72d99d0a557d5468b9f9a"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cb960641cc1fc5ee067e1f"
+      },
+      "amount": 2,
+      "total": 200,
+      "_id": {
+        "$oid": "67cbd11945725a231ae82a9b"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cb912d3b36bdab73c218af"
+      },
+      "amount": 3,
+      "total": 24,
+      "_id": {
+        "$oid": "67cbd11945725a231ae82a9e"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 6,
+      "total": 78,
+      "_id": {
+        "$oid": "67cbd12945725a231ae82aa6"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 9,
+      "total": 45,
+      "_id": {
+        "$oid": "67cbd12945725a231ae82aa9"
+      }
+    }
+  ],
+  "totalCart": 347,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T05:09:45.176Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T05:20:25.171Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cbd640ddb84bec5e879c2a"
+  },
+  "user": {
+    "$oid": "67c72d27d0a557d5468b9f91"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 2,
+      "total": 26,
+      "_id": {
+        "$oid": "67cbd640ddb84bec5e879c2c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 3,
+      "total": 15,
+      "_id": {
+        "$oid": "67cbd640ddb84bec5e879c2f"
+      }
+    }
+  ],
+  "totalCart": 41,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T05:31:44.203Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T05:31:44.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5ca24d8d92a64440f9ba"
+  },
+  "user": {
+    "$oid": "67c72d60d0a557d5468b9f94"
+  },
+  "products": [],
+  "totalCart": 145,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T15:05:06.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:06:59.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5e764d8d92a64440fa0d"
+  },
+  "user": {
+    "$oid": "67c72d7cd0a557d5468b9f97"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cc5dd74d8d92a64440f9fc"
+      },
+      "amount": 5,
+      "total": 75,
+      "_id": {
+        "$oid": "67cc5e764d8d92a64440fa0f"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cc5df54d8d92a64440fa02"
+      },
+      "amount": 6,
+      "total": 138,
+      "_id": {
+        "$oid": "67cc5e764d8d92a64440fa12"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cb912d3b36bdab73c218af"
+      },
+      "amount": 1,
+      "total": 8,
+      "_id": {
+        "$oid": "67cc5e764d8d92a64440fa15"
+      }
+    }
+  ],
+  "totalCart": 221,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T15:12:54.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:12:54.787Z"
+  }
+}]
