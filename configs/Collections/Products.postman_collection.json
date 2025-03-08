@@ -1,0 +1,246 @@
+{
+	"info": {
+		"_postman_id": "926d40b8-04e2-4e39-b87c-3be8b0d8729f",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42402387"
+	},
+	"item": [
+		{
+			"name": "addProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDE0NDY1NDcsImV4cCI6MTc0MTQ1MDE0N30.YloPHkw6WJsW6h9UehS0nHm89LItK2Bl4Yb66pxgCxg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product\": \"Elote\",\r\n    \"information\": \"granoso y amarillo\",\r\n    \"price\": 5.00,\r\n    \"stock\": 40,\r\n    \"name\": \"frutas\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/addPrduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						"addPrduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzOTQ1NzQsImV4cCI6MTc0MTM5ODE3NH0.YUfJAdyGZpXhGdATCqw1Jdy3-ttQGe_KEgf1owq4xTY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product\": \"Pollo pequñito\",\r\n    \"information\": \"Alimento altamente proteico\",\r\n    \"price\": 40.00,\r\n    \"stock\": 35,\r\n    \"name\": \"Carnes\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/67cb90dc3b36bdab73c218a9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						"67cb90dc3b36bdab73c218a9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzOTQ1NzQsImV4cCI6MTc0MTM5ODE3NH0.YUfJAdyGZpXhGdATCqw1Jdy3-ttQGe_KEgf1owq4xTY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/67cb960641cc1fc5ee067e1f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						"67cb960641cc1fc5ee067e1f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listStockAgotado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/?inStock=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						""
+					],
+					"query": [
+						{
+							"key": "inStock",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductMásVendido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/?sortByStock=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						""
+					],
+					"query": [
+						{
+							"key": "sortByStock",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscarProductoPorName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/?name=manguera",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "manguera"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductPorCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/?category=verduras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						""
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "verduras"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/products/67cb912d3b36bdab73c218af",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"products",
+						"67cb912d3b36bdab73c218af"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

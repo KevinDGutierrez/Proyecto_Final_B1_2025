@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "930cc7b8-6670-4c3a-9f03-c64de009904c",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42402387"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Gus\",\r\n    \"surname\": \"Gutierrez\",\r\n    \"username\": \"gus\",\r\n    \"email\": \"gus@gmail.com\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"23214556\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lisUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/67c72d99d0a557d5468b9f9a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						"67c72d99d0a557d5468b9f9a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateuser",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3MmQyN2QwYTU1N2Q1NDY4YjlmOTEiLCJpYXQiOjE3NDEyOTM5OTMsImV4cCI6MTc0MTI5NzU5M30.kBGwDBPwpgOajTiIVjjBSLYVvjPfIOMrfgmssXVMg_k",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Danielito\",\r\n    \"surname\": \"Rodriguez\",\r\n    \"username\": \"dani\",\r\n    \"email\": \"dani@gmail.com\",\r\n    \"actualpassword\":\"12345678\",\r\n    \"password\": \"12345678\",\r\n    \"phone\": \"22225555\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/67c72d27d0a557d5468b9f91",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						"67c72d27d0a557d5468b9f91"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3MmQ3Y2QwYTU1N2Q1NDY4YjlmOTciLCJpYXQiOjE3NDEyOTM4NDAsImV4cCI6MTc0MTI5NzQ0MH0.XiPHXF8YSEwaGaN00h-WeTk_uGKB4OXLTJvcGloa_Js",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"cuyun\",\r\n    \"password\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/users/67c72d7cd0a557d5468b9f97",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"users",
+						"67c72d7cd0a557d5468b9f97"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

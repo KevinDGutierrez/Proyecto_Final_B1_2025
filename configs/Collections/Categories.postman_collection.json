@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "87d338ff-a64b-49ea-ad08-b8e3236cb116",
+		"name": "Categories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42402387"
+	},
+	"item": [
+		{
+			"name": "addCategory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzODA0MzksImV4cCI6MTc0MTM4NDAzOX0.7AlLxIVfS-Whw1-6LnElRzyqxKDte1JE1C1dT81jsX0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Bebidas\",\r\n    \"information\": \"Las mejores bebidas para refrescarte\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/categories/addCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"categories",
+						"addCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCategory",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzMDA2OTksImV4cCI6MTc0MTMwNDI5OX0.FpG18tECaIzHIFZOGGnA34xG2w4LOIHNgt6RshSyOR4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"verduras\",\r\n    \"information\": \"verduras frescas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/categories/67ca26a1bf7f1398de3cc610",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"categories",
+						"67ca26a1bf7f1398de3cc610"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCategory",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzMDA2OTksImV4cCI6MTc0MTMwNDI5OX0.FpG18tECaIzHIFZOGGnA34xG2w4LOIHNgt6RshSyOR4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/categories/67ca274bbf7f1398de3cc61a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"categories",
+						"67ca274bbf7f1398de3cc61a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listCategories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzMDA2OTksImV4cCI6MTc0MTMwNDI5OX0.FpG18tECaIzHIFZOGGnA34xG2w4LOIHNgt6RshSyOR4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/categories/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchCategory",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M4ZWE5YmExYmM5MDI0ZmFmZDM5MjYiLCJpYXQiOjE3NDEzMDA2OTksImV4cCI6MTc0MTMwNDI5OX0.FpG18tECaIzHIFZOGGnA34xG2w4LOIHNgt6RshSyOR4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/Final/v1/categories/67ca26a1bf7f1398de3cc610",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Final",
+						"v1",
+						"categories",
+						"67ca26a1bf7f1398de3cc610"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
