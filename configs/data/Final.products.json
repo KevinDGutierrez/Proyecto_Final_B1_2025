@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "67cb90dc3b36bdab73c218a9"
+  },
+  "product": "Pollo pequeñito",
+  "information": "Alimento altamente proteico",
+  "price": 40,
+  "stock": 33,
+  "category": {
+    "$oid": "67cb5bbea7e4fa8f400b1186"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T00:35:40.320Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:06:46.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cb912d3b36bdab73c218af"
+  },
+  "product": "Coca-Cola",
+  "information": "Bebida sodificada refrescante",
+  "price": 8,
+  "stock": 88,
+  "category": {
+    "$oid": "67ca5b796a25c5067e40a08c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T00:37:01.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:12:54.782Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cb960641cc1fc5ee067e1f"
+  },
+  "product": "Manguera",
+  "information": "utilidad para casas y patios para regar agua",
+  "price": 100,
+  "stock": 50,
+  "category": {
+    "$oid": "67cb95d041cc1fc5ee067e1b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T00:57:42.441Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T05:09:45.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cbbb90200fad1e7d4d9c16"
+  },
+  "product": "Fresa",
+  "information": "frutos rojos deliciosos",
+  "price": 13,
+  "stock": 31,
+  "category": {
+    "$oid": "67ca274bbf7f1398de3cc61a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T03:37:52.561Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:06:13.905Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cbbbbc200fad1e7d4d9c1c"
+  },
+  "product": "Elote",
+  "information": "granoso y amarillo",
+  "price": 5,
+  "stock": 14,
+  "category": {
+    "$oid": "67ca26a1bf7f1398de3cc610"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T03:38:36.975Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:06:13.913Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5dd74d8d92a64440f9fc"
+  },
+  "product": "Takis",
+  "information": "ricos y picantes",
+  "price": 15,
+  "stock": 95,
+  "category": {
+    "$oid": "67cc5da74d8d92a64440f9f8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T15:10:15.278Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:12:54.767Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5df54d8d92a64440fa02"
+  },
+  "product": "Chips",
+  "information": "ricas y picantes",
+  "price": 23,
+  "stock": 94,
+  "category": {
+    "$oid": "67cc5da74d8d92a64440f9f8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-08T15:10:45.104Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:12:54.775Z"
+  }
+}]

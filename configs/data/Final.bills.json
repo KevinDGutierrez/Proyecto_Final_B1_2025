@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "67cbd9164e4f3ae9097f1d44"
+  },
+  "user": {
+    "$oid": "67c72d99d0a557d5468b9f9a"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cb960641cc1fc5ee067e1f"
+      },
+      "amount": 2,
+      "total": 200,
+      "_id": {
+        "$oid": "67cbd9164e4f3ae9097f1d45"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cb912d3b36bdab73c218af"
+      },
+      "amount": 3,
+      "total": 24,
+      "_id": {
+        "$oid": "67cbd9164e4f3ae9097f1d46"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 6,
+      "total": 78,
+      "_id": {
+        "$oid": "67cbd9164e4f3ae9097f1d47"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 9,
+      "total": 45,
+      "_id": {
+        "$oid": "67cbd9164e4f3ae9097f1d48"
+      }
+    }
+  ],
+  "total": 347,
+  "status": true,
+  "date": {
+    "$date": "2025-03-08T05:43:50.279Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-08T05:43:50.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T05:43:50.331Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cbdc10c0ee39fd7b78efe7"
+  },
+  "user": {
+    "$oid": "67c72d27d0a557d5468b9f91"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 5,
+      "total": 65,
+      "_id": {
+        "$oid": "67cbdc10c0ee39fd7b78efe8"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 5,
+      "total": 25,
+      "_id": {
+        "$oid": "67cbdc10c0ee39fd7b78efe9"
+      }
+    }
+  ],
+  "total": 90,
+  "status": true,
+  "date": {
+    "$date": "2025-03-08T05:56:32.803Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-08T05:56:32.843Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T14:59:40.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5ccd4d8d92a64440f9c9"
+  },
+  "user": {
+    "$oid": "67c72d60d0a557d5468b9f94"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 2,
+      "total": 26,
+      "_id": {
+        "$oid": "67cc5ccd4d8d92a64440f9ca"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 3,
+      "total": 15,
+      "_id": {
+        "$oid": "67cc5ccd4d8d92a64440f9cb"
+      }
+    }
+  ],
+  "total": 41,
+  "status": true,
+  "date": {
+    "$date": "2025-03-08T15:05:49.701Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-08T15:05:49.705Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:05:49.705Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cc5d134d8d92a64440f9ef"
+  },
+  "user": {
+    "$oid": "67c72d60d0a557d5468b9f94"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67cbbb90200fad1e7d4d9c16"
+      },
+      "amount": 2,
+      "total": 26,
+      "_id": {
+        "$oid": "67cc5d134d8d92a64440f9f0"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cbbbbc200fad1e7d4d9c1c"
+      },
+      "amount": 3,
+      "total": 15,
+      "_id": {
+        "$oid": "67cc5d134d8d92a64440f9f1"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cb90dc3b36bdab73c218a9"
+      },
+      "amount": 2,
+      "total": 80,
+      "_id": {
+        "$oid": "67cc5d134d8d92a64440f9f2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "67cb912d3b36bdab73c218af"
+      },
+      "amount": 3,
+      "total": 24,
+      "_id": {
+        "$oid": "67cc5d134d8d92a64440f9f3"
+      }
+    }
+  ],
+  "total": 145,
+  "status": true,
+  "date": {
+    "$date": "2025-03-08T15:06:59.586Z"
+  },
+  "createdAt": {
+    "$date": "2025-03-08T15:06:59.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-08T15:06:59.592Z"
+  }
+}]
